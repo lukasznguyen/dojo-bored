@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <link rel="stylesheet" th:href="@{/style.css}">
+    <title>Activity App</title>
+</head>
+<body>
+<div id="welcome-div">
+    <div id="welcome-text">
+        <p>Hey Ferb. I know what we're gonna do today!</p>
+    </div>
+</div>
+<div id="button-div">
+    <div id="buttons">
+        <a href="/" id="roll-button" style="text-decoration:none">What, Fineas?</a>
+    </div>
+</div>
+<div id="activity-div">
+    <span id="activity-label" th:text="${activity.getActivity()}"></span>
+</div>
+</body>
+</html>

@@ -1,0 +1,64 @@
+body {
+    background-image: url(/img/background.png);
+    background-size: cover;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+#welcome-div {
+    display: flex;
+    justify-content: center;
+}
+
+#welcome-text {
+    background: rgb(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 25px;
+    font-size: x-large;
+    font-weight: bold;
+    padding: 25px 50px 25px 50px;
+}
+
+#button-div {
+    display: flex;
+    justify-content: center;
+}
+
+#buttons {
+    padding: 25px 50px 25px 50px;
+}
+
+#roll-button {
+    font-size: x-large;
+    border-radius: 10px;
+    color: white;
+    background: red;
+    padding: 5px 50px;
+    font-weight: bold;
+    opacity: 0.8;
+    border-color: red;
+}
+
+#roll-button:hover {
+    font-size: x-large;
+    border-radius: 10px;
+    color: red;
+    background: white;
+    padding: 5px 50px;
+    font-weight: bold;
+    cursor:pointer;
+    border-color: white;
+}
+
+#activity-div {
+    display: flex;
+    justify-content: center;
+}
+
+#activity-label {
+    background: rgb(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 25px;
+    font-size: large;
+    font-weight: bold;
+    padding: 25px 50px 25px 50px;
+}
